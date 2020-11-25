@@ -30,5 +30,6 @@ Route::get('gatos/informacion', [Gatos::class,'informacion']);
 
 //Ruta Gatos Productos
 Route::get('gatos/productos', [Gatos::class,'productos']);
+
 //Ruta Contactos
 Route::get('contactos', [Administracion::class,'contacto']);
